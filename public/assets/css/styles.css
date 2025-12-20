@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f6f7fb;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 640px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+form label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 16px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    background: #0069d9;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0053b3;
+}
+
+button.danger {
+    background: #c0392b;
+}
+
+button.danger:hover {
+    background: #992d22;
+}
+
+.card {
+    padding: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background: #fafafa;
+}
+
+.alert {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    background: #eef2f7;
+}
+
+.alert.success {
+    background: #e6ffed;
+    color: #1b7b38;
+    border: 1px solid #1b7b38;
+}
+
+.alert.danger {
+    background: #ffe6e6;
+    color: #b22222;
+    border: 1px solid #b22222;
+}
+
+.error {
+    color: #b22222;
+    font-size: 0.9em;
+    margin-top: 4px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 12px 0;
+}
+
+.info {
+    margin-top: 12px;
+    padding: 10px;
+    background: #f2f2f2;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
